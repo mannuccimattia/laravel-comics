@@ -13,9 +13,8 @@
 <body>
     @include('partials/header')
 
-    <div class="container">
-        @yield('content')
-    </div>
+    @yield('jumbo')
+    @yield('content')
 
     @include('partials/footer')
 </body>
