@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@yield('title')</title>
+    <link rel="shortcut icon" href="{{ Vite::asset('resources/img/favicon.ico') }}" type="image/x-icon">
+    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>header</header>
+    </div>
+
+    <div class="container">
+        @yield('content')
+    </div>
+
+    <div class="container-fluid">
+        <footer>footer</footer>
+    </div>
+</body>
+
+</html>
