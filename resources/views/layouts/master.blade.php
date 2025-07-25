@@ -11,17 +11,13 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <header>header</header>
-    </div>
+    @include('partials/header')
 
     <div class="container">
         @yield('content')
     </div>
 
-    <div class="container-fluid">
-        <footer>footer</footer>
-    </div>
+    @include('partials/footer')
 </body>
 
 </html>
