@@ -25,6 +25,6 @@ foreach ($routes as $route) {
         Route::get("{$route['href']}", function () use ($route) {
 
             return view("coming-soon", compact("route"));
-        })->name(strtolower("{$route['label']}")); // each route has its own name
+        })->name("{$route['href']}"); // each route has its own name
     }
 };
