@@ -11,7 +11,8 @@
             <ul>
                 @foreach ($links as $link)
                     <li>
-                        <a href="{{ $link['href'] }}" class="{{ $link['current'] ? 'active' : '' }}">
+                        <a href="{{ $link['href'] }}"
+                            class="{{ $link['href'] === $_SERVER['REQUEST_URI'] ? 'active' : '' }}">
                             {{ $link['label'] }}
                         </a>
                         <div class="mark"></div>

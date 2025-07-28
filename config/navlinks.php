@@ -3,62 +3,52 @@
 return [
   [
     "id" => 1,
-    "href" => "#",
+    "href" => "/characters",
     "label" => "Characters",
-    "current" => false
   ],
   [
     "id" => 2,
-    "href" => "#",
+    "href" => "/comics",
     "label" => "Comics",
-    "current" => true
   ],
   [
     "id" => 3,
-    "href" => "#",
+    "href" => "/movies",
     "label" => "Movies",
-    "current" => false
   ],
   [
     "id" => 4,
-    "href" => "#",
+    "href" => "/tv",
     "label" => "TV",
-    "current" => false
   ],
   [
     "id" => 5,
-    "href" => "#",
+    "href" => "/games",
     "label" => "Games",
-    "current" => false
   ],
   [
     "id" => 6,
-    "href" => "#",
+    "href" => "/collectibles",
     "label" => "Collectibles",
-    "current" => false
   ],
   [
     "id" => 7,
-    "href" => "#",
+    "href" => "/videos",
     "label" => "Videos",
-    "current" => false
   ],
   [
     "id" => 8,
-    "href" => "#",
+    "href" => "/fans",
     "label" => "Fans",
-    "current" => false
   ],
   [
     "id" => 9,
-    "href" => "#",
+    "href" => "/news",
     "label" => "News",
-    "current" => false
   ],
   [
     "id" => 10,
-    "href" => "#",
+    "href" => "/shop",
     "label" => "Shop",
-    "current" => false
   ]
 ];
