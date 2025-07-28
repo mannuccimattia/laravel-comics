@@ -10,12 +10,7 @@
         <div class="container">
             <div class="comics-wrapper">
                 @foreach ($comics as $comic)
-                    <div class="comic-card">
-                        <a href="#">
-                            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }} cover">
-                        </a>
-                        <h5>{{ $comic['series'] }}</h5>
-                    </div>
+                    <x-comic-card :comic="$comic" />
                 @endforeach
             </div>
             <div class="btn-wrapper">
