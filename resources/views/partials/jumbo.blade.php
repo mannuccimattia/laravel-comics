@@ -1,4 +1,3 @@
 <div id="jumbotron">
-    BACKGROUND IMAGE
-    <span id="flag">CURRENT MESSAGE</span>
+    <span id="flag">CURRENT SERIES</span>
 </div>
